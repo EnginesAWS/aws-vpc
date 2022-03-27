@@ -1,0 +1,35 @@
+{
+	"identifier": "aws-vpc",
+	"about": {
+		"title": "AWS VPC",
+		"explanation": "AWS VPC"
+	},
+	"configuration": {
+		"cidr_block": "",
+		"tags": {
+			"name": "something"
+		}
+	},
+	"bindings": [
+		{
+			"type": "embed",
+			"target": {
+				"repository": "https://github.com/v2Blueprints/aws-subnet"
+			},
+			"configuration": {
+				"cidr_block": "",
+				"Name": "Zone a"
+			}
+		},
+		{
+			"type": "embed",
+			"target": {
+				"repository": "https://github.com/v2Blueprints/aws-subnet"
+			},
+			"configuration": {
+				"cidr_block": "",
+				"Name": "Zone b"
+			}
+		}
+	]
+}
