@@ -1,4 +1,6 @@
 # aws-vpc
+The VPC blueprint for most deployments will be handwritten There is a pile of stuff to add here in terms of vpc setup/configuration and of bindings added to vpc
+
 https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc
 
 resource "aws_vpc" "something" {
@@ -10,20 +12,5 @@ resource "aws_vpc" "something" {
   }
 }
 
-resource "aws_subnet" "zone_a" {
-  vpc_id     = aws_vpc.main.id
-  cidr_block = "10.0.0.0/24"
 
-  tags = {
-    Name = "Zone a"
-  }
-}
-
-resource "aws_subnet" "zone_b" {
-  vpc_id     = aws_vpc.main.id
-  cidr_block = "10.0.1.0/24"
-
-  tags = {
-    Name = "Zone b"
-  }
 }

@@ -7,7 +7,7 @@
 	"configuration": {
 		"cidr_block": "",
 		"tags": {
-			"name": "something"
+			"name": "vpc ^^indentifier^^"
 		}
 	},
 	"bindings": [
