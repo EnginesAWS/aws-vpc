@@ -5,6 +5,7 @@
 		"explanation": "AWS VPC"
 	},
 	"configuration": {
+	    "region": "",
 		"cidr_block": "",
 		"tags": {
 			"name": "vpc ^^indentifier^^"
