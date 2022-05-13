@@ -1,9 +1,12 @@
 {
 	"identifier": "aws-vpc",
 	"about": {
-		"title": "AWS VPC",
+		"title": "AWS Virtual Private Cloud",
 		"explanation": "AWS VPC"
 	},
+	"provider": {
+		"default": {"identifier": "vpc"}
+	},   
 	"configuration": {
 	    "region": "",
 		"cidr_block": "",
