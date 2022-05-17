@@ -5,11 +5,15 @@
 		"explanation": "AWS VPC"
 	},
 	"compute_service": {
-		"default": {"identifier": "vpc"}
-	},   
+		"default": {
+			"identifier": "vpc"
+		}
+	},
 	"configuration": {
-	    "region": "",
+		"region": "",
 		"cidr_block": "",
+		"enable_dns_support": true,
+		"enable_dns_hostnames": true,
 		"tags": {
 			"name": "vpc ^^indentifier^^"
 		}
