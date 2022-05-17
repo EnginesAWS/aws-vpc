@@ -13,27 +13,5 @@
 		"tags": {
 			"name": "vpc ^^indentifier^^"
 		}
-	},
-	"bindings": [
-		{
-			"type": "embed",
-			"target": {
-				"repository": "https://github.com/v2Blueprints/aws-subnet"
-			},
-			"configuration": {
-				"cidr_block": "",
-				"Name": "Zone a"
-			}
-		},
-		{
-			"type": "embed",
-			"target": {
-				"repository": "https://github.com/v2Blueprints/aws-subnet"
-			},
-			"configuration": {
-				"cidr_block": "",
-				"Name": "Zone b"
-			}
-		}
-	]
+	}
 }
