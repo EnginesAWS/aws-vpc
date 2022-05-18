@@ -10,12 +10,12 @@
 		}
 	},
 	"configuration": {
-		"region": "",
 		"cidr_block": "",
 		"enable_dns_support": true,
-		"enable_dns_hostnames": true,
+		"enable_dns_hostnames": false,
+		"instance_tenancy": "default",
 		"tags": {
-			"name": "vpc ^^indentifier^^"
+			"name": "^^indentifier^^"
 		}
 	}
 }
