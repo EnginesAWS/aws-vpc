@@ -13,9 +13,6 @@
 		"cidr_block": "",
 		"enable_dns_support": true,
 		"enable_dns_hostnames": false,
-		"instance_tenancy": "default",
-		"tags": {
-			"name": "^^indentifier^^"
-		}
+		"instance_tenancy": "default"
 	}
 }
