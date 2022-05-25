@@ -2,7 +2,7 @@
 	"identifier": "vpc",
 	"about": {
 		"title": "AWS Virtual Private Cloud",
-		"explanation": "An elementary blueprint for defining an AWS Virtual Private Cloud (VPC)
+		"explanation": "An elementary blueprint for defining an AWS Virtual Private Cloud (VPC)"
 	},
 	"compute_service": {
 		"default": {
